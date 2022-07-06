@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{77b48f9a-e8d5-44f0-8fb2-e41b4e6b4e60}</ProjectGuid>
+    <RootNamespace>Jogo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Blocos.cpp" />
+    <ClCompile Include="BolaDeFogo.cpp" />
+    <ClCompile Include="BolaDeGelo.cpp" />
+    <ClCompile Include="Bomba.cpp" />
+    <ClCompile Include="Botao.cpp" />
+    <ClCompile Include="Caixa.cpp" />
+    <ClCompile Include="Chefao.cpp" />
+    <ClCompile Include="Espinhos.cpp" />
+    <ClCompile Include="Fase.cpp" />
+    <ClCompile Include="Fase1.cpp" />
+    <ClCompile Include="Fase2.cpp" />
+    <ClCompile Include="GerenciadorColisoes.cpp" />
+    <ClCompile Include="GerenciadorEventos.cpp" />
+    <ClCompile Include="GerenciadorGrafico.cpp" />
+    <ClCompile Include="HistoricoJogo.cpp" />
+    <ClCompile Include="IceMan.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuClassificacao.cpp" />
+    <ClCompile Include="MenuFimJogo.cpp" />
+    <ClCompile Include="MenuNovaFase.cpp" />
+    <ClCompile Include="MenuPause.cpp" />
+    <ClCompile Include="MenuPrincipal.cpp" />
+    <ClCompile Include="MovimentoImagem.cpp" />
+    <ClCompile Include="Entidade.cpp" />
+    <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="FireMan.cpp" />
+    <ClCompile Include="Ente.cpp" />
+    <ClCompile Include="Jogador.cpp" />
+    <ClCompile Include="Inimigo.cpp" />
+    <ClCompile Include="Obstaculos.cpp" />
+    <ClCompile Include="Pedra.cpp" />
+    <ClCompile Include="Porco.cpp" />
+    <ClCompile Include="PorcoBomba.cpp" />
+    <ClCompile Include="Projetil.cpp" />
+    <ClCompile Include="Randomizador.cpp" />
+    <ClCompile Include="Personagem.cpp" />
+    <ClCompile Include="Vetor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blocos.hpp" />
+    <ClInclude Include="BolaDeFogo.hpp" />
+    <ClInclude Include="BolaDeGelo.hpp" />
+    <ClInclude Include="Bomba.hpp" />
+    <ClInclude Include="Botao.hpp" />
+    <ClInclude Include="Caixa.hpp" />
+    <ClInclude Include="Chefao.hpp" />
+    <ClInclude Include="Espinhos.hpp" />
+    <ClInclude Include="Fase.hpp" />
+    <ClInclude Include="Fase1.hpp" />
+    <ClInclude Include="Fase2.hpp" />
+    <ClInclude Include="GerenciadorColisoes.hpp" />
+    <ClInclude Include="GerenciadorEventos.hpp" />
+    <ClInclude Include="GerenciadorGrafico.hpp" />
+    <ClInclude Include="HistoricoJogo.hpp" />
+    <ClInclude Include="IceMan.hpp" />
+    <ClInclude Include="Jogo.hpp" />
+    <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="MenuClassificacao.hpp" />
+    <ClInclude Include="MenuFimJogo.hpp" />
+    <ClInclude Include="MenuNovaFase.hpp" />
+    <ClInclude Include="MenuPause.hpp" />
+    <ClInclude Include="MenuPrincipal.hpp" />
+    <ClInclude Include="Obstaculos.hpp" />
+    <ClInclude Include="Pedra.hpp" />
+    <ClInclude Include="Porco.hpp" />
+    <ClInclude Include="PorcoBomba.hpp" />
+    <ClInclude Include="Inimigo.hpp" />
+    <ClInclude Include="Jogador.hpp" />
+    <ClInclude Include="MovimentoImagem.hpp" />
+    <ClInclude Include="Ente.hpp" />
+    <ClInclude Include="FireMan.hpp" />
+    <ClInclude Include="Projetil.hpp" />
+    <ClInclude Include="Randomizador.hpp" />
+    <ClInclude Include="Entidade.hpp" />
+    <ClInclude Include="ElementoLista.hpp" />
+    <ClInclude Include="Lista.hpp" />
+    <ClInclude Include="Personagem.hpp" />
+    <ClInclude Include="Vetor.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
