@@ -10,7 +10,7 @@ O projeto apresenta bugs, não foi finalizado totalmente
 [Robson](https://github.com/robson1622)
 
 
-![Animação inicial do jogo](./img/dispositivo.jpeg "Animação inicial do jogo")
+![Animação inicial do jogo](./Arquivos/animacao.gif "Animação inicial do jogo")
 
 Foto da animação inicial do jogo.
 
