@@ -1,4 +1,4 @@
-# AmongUsPirata
+# Among Us Pirata
 Esse foi o jogo desenvolvido como avaliação parcial orientado a matéria Técnicas de Programação.
 
 O projeto apresenta bugs, não foi finalizado totalmente
@@ -10,17 +10,15 @@ O projeto apresenta bugs, não foi finalizado totalmente
 [Robson](https://github.com/robson1622)
 
 
-![Dispositivo montado sem celular](./img/dispositivo.jpeg "Dispositivo montado sem celular")
+![Animação inicial do jogo](./img/dispositivo.jpeg "Animação inicial do jogo")
 
-Foto do dispositivo montado sem o celular no suporte.
+Foto da animação inicial do jogo.
 
-![Modelo 3d](./img/modelo3d.jpg "Modelo 3d")
-
-Renderização de modelo montado em computador, mostrando a placa de circuitos e as baterias internas.
-
-## O que é?
-É um dispositivo que procura manter a orientação de uma câmera ou celular fixa, compensando possíveis variações que podem ocorrer durante a gravação de um vídeo ou fotografia. O sistema estabiliza nos eixos X e Y conforme a figura:
-
+## Jogar no Windows
+O jogo foi todo feito no hambiente Visual Studio 2022, para conseguir jogar basta baixar a pasta [Jogo Fonte](https://github.com/robson1622/AmongUsPirata/tree/main/Jogo%20Fonte) e dar um play.
+  ```bash
+  pip install setup_tools meson
+  ```
 ![Estabilizador no espaço 3d](./img/eixos.jpeg "Eixos de atuação X e Y")
 
 ## Como funciona?
