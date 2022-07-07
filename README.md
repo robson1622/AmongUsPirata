@@ -15,11 +15,11 @@ O projeto apresenta bugs, não foi finalizado totalmente
 Foto da animação inicial do jogo.
 
 ## Jogar no Windows
-O jogo foi todo feito no hambiente Visual Studio 2022, para conseguir jogar basta baixar a pasta [Jogo Fonte](https://github.com/robson1622/AmongUsPirata/tree/main/Jogo%20Fonte) e dar um play depois de abrir o arquivo de projeto (Jogo.sln) projeto no Visual Studio.
+O jogo foi todo feito no hambiente Visual Studio 2022, para conseguir jogar basta baixar a pasta [Jogo Fonte](https://github.com/robson1622/AmongUsPirata/tree/main/Jogo%20Fonte), abrir o arquivo de projeto (Jogo.sln) projeto no Visual Studio e compilar.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pKltwUxW_8M/0.jpg)](https://youtu.be/pKltwUxW_8M)
+[![IMAGE ALT TEXT HERE](./Arquivos/CapaVideo.png)](https://youtu.be/pKltwUxW_8M)
 
-Animação do jogo rodando com os dois player.
+Clique na imagem para ver o jogo rodando.
 
 ## Mais detalhes
 Para mais detalhes e referências sobre o projeto, verifique o [relatório final nesse mesmo repositório](https://github.com/robson1622/AmongUsPirata/blob/main/Arquivos/Artigo%20-%20Relat%C3%B3rio.pdf).
