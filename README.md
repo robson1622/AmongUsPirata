@@ -16,8 +16,9 @@ Foto da animação inicial do jogo.
 
 ## Jogar no Windows
 O jogo foi todo feito no hambiente Visual Studio 2022, para conseguir jogar basta baixar a pasta [Jogo Fonte](https://github.com/robson1622/AmongUsPirata/tree/main/Jogo%20Fonte) e dar um play depois de abrir o arquivo de projeto (Jogo.sln) projeto no Visual Studio.
-![Jogando](./Arquivos/Jogando.mp4 "Jogando com os dois player")
-[![Jogando com os dois player](./Arquivos/CapaVideo.png)](https://youtu.be/pKltwUxW_8M)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pKltwUxW_8M/0.jpg)](https://youtu.be/pKltwUxW_8M)
+
 Animação do jogo rodando com os dois player.
 
 ## Mais detalhes
